@@ -14,10 +14,28 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2019-08-14T14:36:13.815Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-08-14T14:36:13.815Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-11-21T05:41:42.772Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:41:42.772Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<headline>Accelerated portfolios the</headline>
 	<subHeadline>We are the Financial Experts for Long term Portfolio management.   Find out how.</subHeadline>
-	<col1 item-list="true"/>
+	<col1 item-list="true">	<item datasource="componentsEmbedded" inline="true">	<key>305426b3-252a-773d-12e3-5797de0597e4</key>
+	<value>section layout embedded</value>
+<component id="305426b3-252a-773d-12e3-5797de0597e4">
+	<content-type>/plugins/bootstrap-layouts/section</content-type>
+	<display-template>/templates/plugins/bootstrap-layouts/component-section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>3054</objectGroupId>
+	<objectId>305426b3-252a-773d-12e3-5797de0597e4</objectId>
+	<file-name>305426b3-252a-773d-12e3-5797de0597e4.xml</file-name>
+	<internal-name>section layout embedded</internal-name>
+	<sectionID>content</sectionID>
+	<sectionZone1 item-list="true"/>
+	<createdDate>2019-11-21T05:41:45.813Z</createdDate>
+	<createdDate_dt>2019-11-21T05:41:45.813Z</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:41:45.813Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:41:45.813Z</lastModifiedDate_dt>
+</component>
+	</item></col1>
 </page>
