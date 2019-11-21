@@ -85,44 +85,44 @@
 
 
 
-<category>
-<label>Targeting</label>
-<component>
-<label>Targeted Section</label>
-<type>/plugins/targeting/targeter</type>
-<path>/site/components/page</path>
-</component>
-<component>
-<label>Targeted Content</label>
-<type>/plugins/targeting/targeted-content</type>
-<path>/site/components/page</path>
-</component>
-</category>
+<!--<category>-->
+<!--<label>Targeting</label>-->
+<!--<component>-->
+<!--<label>Targeted Section</label>-->
+<!--<type>/plugins/targeting/targeter</type>-->
+<!--<path>/site/components/page</path>-->
+<!--</component>-->
+<!--<component>-->
+<!--<label>Targeted Content</label>-->
+<!--<type>/plugins/targeting/targeted-content</type>-->
+<!--<path>/site/components/page</path>-->
+<!--</component>-->
+<!--</category>-->
 
 
 
 
-<category>
-<label>Social Media</label>
-<component>
-<label>Twitter Feed</label>
-<type>/plugins/twitterfeed/twitterfeed</type>
-<path>/site/components/page</path>
-</component>
-</category>
+<!--<category>-->
+<!--<label>Social Media</label>-->
+<!--<component>-->
+<!--<label>Twitter Feed</label>-->
+<!--<type>/plugins/twitterfeed/twitterfeed</type>-->
+<!--<path>/site/components/page</path>-->
+<!--</component>-->
+<!--</category>-->
 
-   <category>
-      <label>Forms and Workflow</label>
-      <component>
-                <label>User Form</label>
-                <type>/plugins/user-forms/user-form</type>
-                <path>/site/components/page</path>
-      </component>
-   </category>
+<!--   <category>-->
+<!--      <label>Forms and Workflow</label>-->
+<!--      <component>-->
+<!--                <label>User Form</label>-->
+<!--                <type>/plugins/user-forms/user-form</type>-->
+<!--                <path>/site/components/page</path>-->
+<!--      </component>-->
+<!--   </category>-->
 
- <browse>
-         <label>Common</label>
-         <path>/site/components/common</path>
-       </browse>
+<!-- <browse>-->
+<!--         <label>Common</label>-->
+<!--         <path>/site/components/common</path>-->
+<!--       </browse>-->
 
 </config>
