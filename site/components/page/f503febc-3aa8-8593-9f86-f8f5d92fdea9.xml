@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>
+	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<no-template-required/>
+	<objectGroupId>f503</objectGroupId>
+	<objectId>f503febc-3aa8-8593-9f86-f8f5d92fdea9</objectId>
+	<file-name>f503febc-3aa8-8593-9f86-f8f5d92fdea9.xml</file-name>
+	<internal-name>in layout</internal-name>
+	<content_html>&lt;h1&gt;in layout&lt;/h1&gt;</content_html>
+	<createdDate>2019-11-21T05:42:39.102Z</createdDate>
+	<createdDate_dt>2019-11-21T05:42:39.102Z</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:42:39.102Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:42:39.102Z</lastModifiedDate_dt>
+</component>
