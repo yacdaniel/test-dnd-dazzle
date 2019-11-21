@@ -7,11 +7,7 @@
 	<objectGroupId>591c</objectGroupId>
 	<objectId>591cac8b-aa3f-be4a-4366-7c3cd8de6595</objectId>
 	<file-name>591cac8b-aa3f-be4a-4366-7c3cd8de6595.xml</file-name>
-	<sectionZone1 item-list="true">	<item datasource="components">	<key>/site/components/page/fc1be05c-994a-e47e-1169-d6b5e9f3dc84.xml</key>
-	<value>test1</value>
-	<include>/site/components/page/fc1be05c-994a-e47e-1169-d6b5e9f3dc84.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></sectionZone1>
+	<sectionZone1 item-list="true"/>
 	<internal-name>section layout</internal-name>
 	<sectionID>content</sectionID>
 	<createdDate>2019-11-21T05:38:33.830Z</createdDate>
