@@ -14,13 +14,36 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2019-11-21T05:48:53.105Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-11-21T05:48:53.105Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-11-21T05:51:29.017Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:51:29.017Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<headline>Accelerated portfolios the</headline>
 	<subHeadline>We are the Financial Experts for Long term Portfolio management.   Find out how.</subHeadline>
 	<col1 item-list="true">	<item datasource="components2">	<value>section layout</value>
 	<key>/site/components/page/71ccbe13-8bbb-ad63-ed18-4eeed41750e8.xml</key>
 	<include>/site/components/page/71ccbe13-8bbb-ad63-ed18-4eeed41750e8.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="componentsEmbedded" inline="true">	<key>82e37b01-3cd0-972f-7ecc-39c42d57747a</key>
+	<value>section layout embedded</value>
+<component id="82e37b01-3cd0-972f-7ecc-39c42d57747a">
+	<content-type>/plugins/bootstrap-layouts/section</content-type>
+	<display-template>/templates/plugins/bootstrap-layouts/component-section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>82e3</objectGroupId>
+	<objectId>82e37b01-3cd0-972f-7ecc-39c42d57747a</objectId>
+	<internal-name>section layout embedded</internal-name>
+	<sectionID>content</sectionID>
+	<file-name>82e37b01-3cd0-972f-7ecc-39c42d57747a.xml</file-name>
+	<sectionZone1 item-list="true">	<item datasource="components">	<key>/site/components/page/e40abd1b-96de-dc00-a573-c64d2569c862.xml</key>
+	<value>layout embedded</value>
+	<include>/site/components/page/e40abd1b-96de-dc00-a573-c64d2569c862.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sectionZone1>
+	<createdDate>2019-11-21T05:51:32.003Z</createdDate>
+	<createdDate_dt>2019-11-21T05:51:32.003Z</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:51:32.003Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:51:32.003Z</lastModifiedDate_dt>
+</component>
 	</item></col1>
 </page>
