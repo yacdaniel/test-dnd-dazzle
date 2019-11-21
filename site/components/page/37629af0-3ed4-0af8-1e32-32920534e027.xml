@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>
+	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<no-template-required/>
+	<objectGroupId>3762</objectGroupId>
+	<objectId>37629af0-3ed4-0af8-1e32-32920534e027</objectId>
+	<file-name>37629af0-3ed4-0af8-1e32-32920534e027.xml</file-name>
+	<internal-name>in layout</internal-name>
+	<content_html>&lt;h1&gt;in layout&lt;/h1&gt;</content_html>
+	<createdDate>2019-11-21T05:42:02.185Z</createdDate>
+	<createdDate_dt>2019-11-21T05:42:02.185Z</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:42:02.185Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:42:02.185Z</lastModifiedDate_dt>
+</component>
