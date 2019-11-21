@@ -9,7 +9,10 @@
 	<internal-name>section layout</internal-name>
 	<sectionID>content</sectionID>
 	<file-name>1d279669-3191-96cf-c79b-1accef535c1f.xml</file-name>
-	<sectionZone1 item-list="true"/>
+	<sectionZone1 item-list="true">	<item datasource="components">	<value>text in layout</value>
+	<key>/site/components/page/b2f78ec6-e2d0-8032-2d62-7e1d0c04be52.xml</key>
+	<include>/site/components/page/b2f78ec6-e2d0-8032-2d62-7e1d0c04be52.xml</include>
+	</item></sectionZone1>
 	<createdDate>2019-11-21T05:33:29.080Z</createdDate>
 	<createdDate_dt>2019-11-21T05:33:29.080Z</createdDate_dt>
 	<lastModifiedDate>2019-11-21T05:33:29.080Z</lastModifiedDate>
