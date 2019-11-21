@@ -30,7 +30,6 @@
 <component>
 <label>Rich Text Embedded</label>
 <type>/plugins/rich-text/rich-text</type>
-<path>/site/components/page</path>
 </component>
 <!--<component>-->
 <!--<label>RSS Feed</label>-->
