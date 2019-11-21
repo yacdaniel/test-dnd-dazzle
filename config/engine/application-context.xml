@@ -10,7 +10,7 @@
         <property name="elasticsearch"  ref="crafter.elasticsearchService" />
     </bean>
 
-    <bean id="targetedContentService" class="services.targetedContentService">
+    <bean id="targetedContentService" class="services.TargetedContentService">
         <property name="elasticsearch"  ref="crafter.elasticsearchService" />
         <property name="siteItemService"  ref="crafter.siteItemService" />
         <property name="targetingHelper"  ref="targetingHelper" />
