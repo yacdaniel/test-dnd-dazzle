@@ -5,4 +5,4 @@
  .rte >  h2, h3, h4 { color: white !important; }" 
 </style>
 
-<div class="rte" <@studio.componentAttr path=model.storeUrl ice=true iceGroup="content" /> >  ${contentModel.content_html!''}</div>
+<div class="rte" <@studio.componentAttr component=contentModel ice=true iceGroup="content" /> >  ${contentModel.content_html!''}</div>
