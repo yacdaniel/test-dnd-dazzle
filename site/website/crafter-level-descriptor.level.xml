@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3e75</objectGroupId>
+	<objectId>3e7535ea-a4a3-b2c8-9b3a-c1414de4b67e</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name/>
+	<companyName>Dazzle Inc</companyName>
+	<createdDate>11/14/2017 3:44:13</createdDate>
+	<createdDate_dt>11/14/2017 3:44:13</createdDate_dt>
+	<lastModifiedDate>2019-06-21T18:15:16.806Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-21T18:15:16.806Z</lastModifiedDate_dt>
+</component>

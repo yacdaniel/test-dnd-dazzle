@@ -1,0 +1,314 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\000033}}
+.header-default .first-nav {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #e7e7e7;
+  border: none;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\000039}}
+.header-default .first-nav .navbar-nav > li > a {
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000313}}
+.header-default .first-nav .navbar-collapse {
+  padding-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000318}}
+.header-default .nav-area {
+  margin: 2% 0% 0% 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000321}}
+.header-default .nav-area .logo {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000324}}
+.header-default .nav-area .logo img {
+  height: auto;
+  width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000330}}
+.header-default .nav-area .first-menu {
+  padding-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000334}}
+.header-default .nav-area .section-left {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000338}}
+.header-default .nav-area .section-right {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000344}}
+.header-default .nav-area .search-area .input-group ul {
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000347}}
+.header-default .nav-area .search-area .search-icon {
+  border-left: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000350}}
+.header-default .nav-area .search-area .btn {
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000353}}
+.header-default .nav-area .search-area .form-control {
+  height: 50px;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: none;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000362}}
+.header-default .nav-area .search-area .btn-default {
+  height: 48px;
+  border: none;
+  background-color: rgba(192, 192, 192, 0);
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000368}}
+.header-default .nav-area .search-area .input-group-addon {
+  padding: 0px;
+  border-radius: 0px;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000372}}
+.header-default .nav-area .search-area .input-group-addon .selectpicker {
+  border: none;
+  background-color: rgba(192, 192, 192, 0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000380}}
+.header-default .second-nav {
+  border: none;
+  background-color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000384}}
+.header-default .second-nav .glyphicon-user:before {
+  padding: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000387}}
+.header-default .second-nav .glyphicon-briefcase:before {
+  padding: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000390}}
+.header-default .second-nav .header-nav {
+  padding-left: 0.5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\0000394}}
+.header-default .second-nav .navbar-header .nav-icon {
+  position: relative;
+  float: right;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003100}}
+.header-default .second-nav .navbar-header .nav-icon a {
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003105}}
+.header-default .second-nav .navbar-brand {
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003108}}
+.header-default .second-nav .search-form {
+  width: 40%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003110}}
+.header-default .second-nav .search-form .form-group {
+  width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003113}}
+.header-default .second-nav .search-form .form-group .nav-search {
+  width: 90%;
+  height: 45px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003127}}
+  .container {
+    max-width: 100%;
+  }
+
+  /* Remove the padding we set earlier */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003137}}
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003142}}
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003146}}
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003150}}
+  .nav-icon {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003153}}
+  .status-bar .filter-section {
+    width: 140px !important;
+  }
+}
+@media (min-width: 1401px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003158}}
+  .list-group .child-list {
+    padding-right: 28% !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003163}}
+  .list-group .child-list {
+    padding-right: 20% !important;
+  }
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003171}}
+  .status-bar .filter-section {
+    width: 18% !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003174}}
+  .list-group .child-list {
+    padding-right: 8% !important;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003182}}
+  .status-bar {
+    margin-top: 3%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003185}}
+  .header-default .nav-area .search-area .input-group-addon {
+    background-color: #fff;
+    /*padding-left: 8%;*/
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003190}}
+  .header-default .second-nav {
+    margin-left: 8%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003196}}
+  .first-nav {
+    padding-left: 8%;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003211}}
+  .status-bar {
+    margin-top: 3%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003216}}
+  .search-area .btn-group {
+    padding-left: 0%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003220}}
+  .header-default .nav-area .search-area .input-group-addon {
+    background-color: #fff;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003223}}
+  .header-default .nav-area .search-area .form-control {
+    width: 73%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003226}}
+  .section-right {
+    padding-left: 8%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003229}}
+  .first-nav {
+    padding-left: 8%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003232}}
+  .header-default .second-nav {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003236}}
+  .pagination-section {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003240}}
+  .filter-section label {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003243}}
+  .filter-section .dropdown {
+    display: none;
+  }
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003254}}
+  .masthead {
+    height: 15em;
+    background-size: 100% 15em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003258}}
+  .status-bar {
+    margin-top: 3%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003261}}
+  .pagination-section {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003265}}
+  .filter-section label {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003268}}
+  .filter-section .dropdown {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003273}}
+  .header-default .nav-area .section-right {
+    height: 4em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003276}}
+  .header-default .nav-area .search-area .form-control {
+    width: 51%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003279}}
+  .header-default .nav-area .search-area .input-group-addon {
+    background-color: #fff;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mariarosales\/Documents\/Proyectos\/marketing-asset-center\/UI\/app\/styles\/header\.scss}line{font-family:\00003282}}
+  .header-default .second-nav {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}

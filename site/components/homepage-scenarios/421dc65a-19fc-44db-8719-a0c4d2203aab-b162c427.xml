@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/home-page-scenario</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9b3c5ca7</objectGroupId>
+	<objectId>9b3c5ca7-5950-4ce7-ba70-163b5cbd1783</objectId>
+	<file-name>421dc65a-19fc-44db-8719-a0c4d2203aab-b162c427.xml</file-name>
+	<internal-name>Florida- Summer</internal-name>
+	<disabled>false</disabled>
+	<hoverImageLarge>/static-assets/images/homepage-scenarios/iphone.png</hoverImageLarge>
+	<hoverImageSmall>/static-assets/images/homepage-scenarios/iphone.png</hoverImageSmall>
+	<bckgroundImage>/static-assets/images/homepage-scenarios/florida.jpg</bckgroundImage>
+	<season>	<item>	<key>Summer</key>
+	<value>Summer</value>
+	</item></season>
+	<createdDate>2018-01-26T01:15:41.616Z</createdDate>
+	<createdDate_dt>2018-01-26T01:15:41.616Z</createdDate_dt>
+	<lastModifiedDate>2019-06-26T21:23:42.057Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-26T21:23:42.057Z</lastModifiedDate_dt>
+	<logo>/static-assets/images/homepage-scenarios/florida-logo.png</logo>
+	<region>Florida</region>
+</component>

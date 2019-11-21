@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/section</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9242</objectGroupId>
+	<objectId>92424955-13f2-52dd-0168-d01ed8ef586b</objectId>
+	<file-name>92424955-13f2-52dd-0168-d01ed8ef586b.xml</file-name>
+	<sectionID>Form</sectionID>
+	<sectionZone1 item-list="true"/>
+	<createdDate>2019-06-24T00:28:25.214Z</createdDate>
+	<createdDate_dt>2019-06-24T00:28:25.214Z</createdDate_dt>
+	<lastModifiedDate>2019-06-24T11:52:13.410Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-24T11:52:13.410Z</lastModifiedDate_dt>
+	<internal-name>section layout</internal-name>
+</component>

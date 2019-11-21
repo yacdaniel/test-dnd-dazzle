@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f6b8eb50</objectGroupId>
+	<objectId>f6b8eb50-da6d-48c3-bea9-bc5c56c097d4</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>products</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>1500</orderDefault_f>
+	<internal-name>Advisors</internal-name>
+	<authorName>Investing Advisor</authorName>
+	<authorPosition/>
+	<title>Our Advisors &amp; Products</title>
+	<authorImage>/static-assets/images/authors/Client Advisor.jpg</authorImage>
+	<bodyContent>&lt;div class="hero-component clearfix white" data-analytics-section="subpage" data-analytics-id="20000168598350_H_SVC_Services" data-attribute-pflag="pfno" data-analytics-section-rownum="1" data-tagpdsevent="433"&gt;
+&lt;div class="container" data-analytics-section="component" data-analytics-id="20000168598350_H_SVC_Services" data-analytics-componenttype="hero-component"&gt;
+&lt;div class="hc-content cusNoAnimation"&gt;
+&lt;div class="hc-eyebrow"&gt;WHAT WE OFFER&lt;/div&gt;
+&lt;h1 class="hc-heading"&gt;Financial services. For you.&lt;/h1&gt;
+&lt;h2 class="hc-subheading"&gt;Our Bank works with you to help you meet your financial goals&lt;/h2&gt;
+&lt;div class="hc-description"&gt;You can talk to a financial consultant.&lt;br /&gt;&lt;/div&gt;
+&lt;div class="hc-cta-container"&gt;
+&lt;div class="hc-cta-wrapper "&gt;
+&lt;div class="text-cta"&gt;800-842-2252&lt;/div&gt;
+&lt;div&gt;Weekdays, 8 a.m.&amp;ndash;10 p.m. (ET)&lt;br /&gt;Saturdays, 9 a.m.&amp;ndash;6 p.m. (ET)&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="20000175375774" class="clearfix full-bleed blue-light group   " data-analytics-section="group_subpage" data-analytics-id="20000175375774_GRP_MngFinance_Manage" data-attribute-pflag="pfno" data-analytics-section-rownum="2" data-tagpdsevent="434"&gt;
+&lt;div class="container"&gt;
+&lt;div class="group-heading  "&gt;
+&lt;div class="gh-eyebrow  "&gt;WHAT WE OFFER&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="group-content-wrapper"&gt;
+&lt;div id="20000168599158" class="container" data-analytics-section="subpage" data-analytics-id="20000168599158_FW_SVC_MngFinance" pflag="pfno" data-tagpdsevent="435"&gt;
+&lt;div class="full-width-component blue-light " data-analytics-section="component" data-analytics-id="20000168599158_FW_SVC_MngFinance" data-analytics-componenttype="full-width-component blue-light-Component"&gt;
+&lt;div class="fw-wrapper"&gt;
+&lt;div class="fw-content cusNoAnimation"&gt;
+&lt;h2 class="fw-heading"&gt;Managing your finances with help from Our Bank&lt;/h2&gt;
+&lt;div class="fw-description cusNoAnimation "&gt;It&amp;rsquo;s not easy to plan your financial future or choose the right investments. Our experienced financial consultants are here to help you plan and invest confidently.&lt;/div&gt;
+&lt;div class="fw-description cusNoAnimation "&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="fw-description cusNoAnimation "&gt;&lt;span style="color: #151515; font-family: montserrat-regular, sans-serif; font-size: 2.4rem;"&gt;Work directly with our Wealth Management Advisors&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="clearfix full-bleed  white " data-analytics-section="subpage" data-analytics-id="20000187564244_TWS_SVC_Services_Complex" pflag="pfno" data-analytics-section-rownum="4" data-tagpdsevent="437"&gt;
+&lt;div id="20000187564244" class="container"&gt;
+&lt;div class="third-width-component" data-analytics-section="component" data-analytics-id="20000187564244_TWS_SVC_Services_Complex" data-analytics-componenttype="ThirdWidth-Component"&gt;
+&lt;div class="twc-description"&gt;Our Bank offers advisory services, managed accounts, and trust services for customers who have more complex needs.&lt;/div&gt;
+&lt;div class="tw-wrapper"&gt;
+&lt;div class="tw-content reveal revealUp" data-analytics-section="component" data-analytics-id="20000187565917-TWS_SVC_Services_IAS" data-analytics-componenttype="third-width-component" data-transition-delay="0.25s"&gt;
+&lt;h2 class="tw-heading"&gt;Individual Advisory Services&lt;/h2&gt;
+&lt;div class="tw-description"&gt;A dedicated advisor can manage your money, plan for the future and help you stay on track.&lt;/div&gt;
+&lt;div class="tw-cta-container"&gt;
+&lt;div class="tw-cta-wrapper"&gt;&lt;a class="btn btn-default" href="https://www.tiaa.org/public/offer/services/individual-advisory-services" data-attr-btntype="yes" data-tagevent="3" data-tagpdsevent="416"&gt;ADVISORY SERVICES&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tw-content reveal revealUp" data-analytics-section="component" data-analytics-id="20000187566882-TWS_SVC_Services_MA" data-analytics-componenttype="third-width-component" data-transition-delay="0.43s"&gt;
+&lt;h2 class="tw-heading"&gt;Managed accounts&lt;/h2&gt;
+&lt;div class="tw-description"&gt;Our bank professionals can manage your investment portfolio with your goals in mind.&lt;/div&gt;
+&lt;div class="tw-cta-container"&gt;
+&lt;div class="tw-cta-wrapper"&gt;&lt;a class="btn btn-default" href="https://www.tiaa.org/public/invest/financial-products/investment-management" data-attr-btntype="yes" data-tagevent="4" data-tagpdsevent="417"&gt;MANAGED ACCOUNTS&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tw-content reveal revealUp" data-analytics-section="component" data-analytics-id="20000187569342-TWS_SVC_Services_Trusts" data-analytics-componenttype="third-width-component" data-transition-delay="0.61s"&gt;
+&lt;h2 class="tw-heading"&gt;Trusts&lt;/h2&gt;
+&lt;div class="tw-description"&gt;Our bank offers a range of trust products to customers looking to preserve and manage their finances.&lt;/div&gt;
+&lt;div class="tw-cta-container"&gt;
+&lt;div class="tw-cta-wrapper"&gt;&lt;a class="btn btn-default" href="https://www.tiaa.org/public/offer/services/personal-trust-services" data-attr-btntype="yes" data-tagevent="5" data-tagpdsevent="418"&gt;TRUSTS&lt;/a&gt;&lt;/div&gt;
+&lt;div class="tw-cta-wrapper"&gt;
+&lt;div class="mc-items"&gt;
+&lt;div class="col-sm-4 mc-item reveal revealUp revealShow" data-analytics-id="20000168601798_MC_SVC_1ON1#Col1" data-transition-delay="0.25s"&gt;
+&lt;div class="mc-item-graphic "&gt;&amp;nbsp; &amp;nbsp;&lt;img src="https://www.tiaa.org/public/images/122/6839/20000181226839/Icon-documentfeatherpen-desktop-50px_1000_1x.png" alt="null" class="icon-svg" /&gt;&lt;/div&gt;
+&lt;h3 class="mc-item-heading"&gt;Retirement strategy&lt;/h3&gt;
+&lt;div class="mc-item-description"&gt;Our bank helps you understand your options and get the most from your existing plan.&lt;/div&gt;
+&lt;div class="mc-item-cta-container"&gt;
+&lt;div class="mc-item-cta-wrapper "&gt;&lt;a class="btn btn-default" href="https://www.tiaa.org/public/offer/services/my-retirement" data-attr-btntype="yes" data-tagevent="0" data-tagpdsevent="413"&gt;RETIREMENT STRATEGY&lt;/a&gt;&lt;/div&gt;
+&lt;div class="mc-item-cta-wrapper "&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-sm-4 mc-item reveal revealUp revealShow" data-analytics-id="20000168601798_MC_SVC_1ON1#Col2" data-transition-delay="0.43s"&gt;
+&lt;div class="mc-item-graphic "&gt;&amp;nbsp;&lt;img src="https://www.tiaa.org/public/images/686/7260/20000176867260/icon-transitioning-to-retirement-50px_1000_1x.png" alt=" " class="icon-svg" /&gt;&lt;/div&gt;
+&lt;h3 class="mc-item-heading"&gt;Transitioning to retirement&lt;/h3&gt;
+&lt;div class="mc-item-description"&gt;What you do during this time is critical. We&amp;rsquo;ll talk through your options and help create a plan.&lt;/div&gt;
+&lt;div class="mc-item-cta-container"&gt;
+&lt;div class="mc-item-cta-wrapper "&gt;&lt;a class="btn btn-default" href="https://www.tiaa.org/public/offer/services/transitioning-into-living-in-retirement" data-attr-btntype="yes" data-tagevent="1" data-tagpdsevent="414"&gt;TRANSITIONING&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-sm-4 mc-item reveal revealUp revealShow" data-analytics-id="20000168601798_MC_SVC_1ON1#Col3" data-transition-delay="0.61s"&gt;
+&lt;div class="mc-item-graphic "&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;
+&lt;div class="mc-item-graphic "&gt;&amp;nbsp;&amp;nbsp;&lt;img src="https://www.tiaa.org/public/images/434/0822/50000004340822/icon-chart-50px_1000_1x.png" alt=" " class="icon-svg" /&gt;&lt;/div&gt;
+&lt;h3 class="mc-item-heading"&gt;Other financial goals&lt;/h3&gt;
+&lt;div class="mc-item-description"&gt;We&amp;rsquo;re a full-service financial organization and have the expertise to help you reach your short- and long-term goals.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="clearfix full-bleed  orange " data-analytics-section="subpage" data-analytics-id="20000168615557_FB_SVC_TIAADiff" pflag="pfno" data-analytics-section-rownum="5" data-tagpdsevent="438"&gt;
+&lt;div id="20000168615557" class="container" data-analytics-section="component" data-analytics-id="20000168615557_FB_SVC_TIAADiff" data-analytics-componenttype="AuthorByLine-Component"&gt;
+&lt;div class="full-width-component"&gt;
+&lt;div class="fw-wrapper"&gt;
+&lt;div class="fw-content reveal revealUp" data-transition-delay="0.25s"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</bodyContent>
+	<navLabel>Our Advisors</navLabel>
+	<disabled>false</disabled>
+	<createdDate>2018-01-25T22:39:01.635Z</createdDate>
+	<createdDate_dt>2018-01-25T22:39:01.635Z</createdDate_dt>
+	<lastModifiedDate>2019-06-26T18:45:50.055Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-26T18:45:50.055Z</lastModifiedDate_dt>
+	<expireDate_dt>2018-01-25T22:39:01.000Z</expireDate_dt>
+	<keywords>Article</keywords>
+	<col1 item-list="true">	<item>	<key>/site/components/page/8d718897-6bd4-120c-967c-ff769819b988.xml</key>
+	<value>Email Form - Advisor</value>
+	<include>/site/components/page/8d718897-6bd4-120c-967c-ff769819b988.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></col1>
+	<demofield>test field update</demofield>
+</page>

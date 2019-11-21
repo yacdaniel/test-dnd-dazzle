@@ -1,0 +1,89 @@
+<div class="custom-calendar">
+    <table>
+        <thead>
+        <tr>
+            <th>
+                <div class="in">
+                    <dropdown class="dropdown">
+                        <dropdown-toggle class="dropdown-toggle">
+                            Departments <b class="caret"></b>
+                        </dropdown-toggle>
+                        <ul class="dropdown-menu">
+                            <li ng-repeat="department in departments">
+                                <a href="javscript:" ng-click="$event.stopPropagation()">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"
+                                                    ng-model="department.active"/>
+                                            {{department.name}}
+                                        </label>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </dropdown>
+                </div>
+            </th>
+            <th>
+                <div class="in">
+                    <dropdown class="pull-right dropdown">
+                        <dropdown-toggle class="dropdown-toggle">
+                            Show Updates and Files <b class="caret"></b>
+                        </dropdown-toggle>
+                        <div class="dropdown-menu">
+                            <div class="updates-and-files">
+                                <h3>Activity</h3>
+                                <ul>
+                                    <li>
+                                        <div class="name">John Doe</div>
+                                        <date>Oct 11, 3:14 pm</date>
+                                        <div class="description">File updated with new version</div>
+                                    </li>
+                                    <li>
+                                        <div class="name">Joe Smith</div>
+                                        <date>Oct 15, 1:50 pm</date>
+                                        <div class="description">Updated document</div>
+                                    </li>
+                                    <li>
+                                        <div class="name">Susan Jones</div>
+                                        <date>Oct 16, 8:14 am</date>
+                                        <div class="description">Revised milestone end date</div>
+                                    </li>
+                                    <li>
+                                        <div class="name">Fred Johnson</div>
+                                        <date>Oct 21, 2:25 pm</date>
+                                        <div class="description">Uploaded new file</div>
+                                    </li>
+                                </ul>
+                                <div class="divide">
+                                    <a href="javascript:" class="pull-right">Upload</a>
+                                    <h3>Files</h3>
+                                    <div class="empty">(no files added)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </dropdown>
+                </div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr ng-repeat="department in departments | filter: { active:true }">
+            <th><div class="in">{{department.name}}</div></th>
+            <td>
+                <div class="">
+                    <div class="col-sm-4"
+                            ng-repeat="event in events | filter: { departmentId:department.id }">
+                        <div class="event-thumb">
+                            <div class="title">{{event.title}}</div>
+                            <date>{{prettyDate(event.start)}}</date>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>

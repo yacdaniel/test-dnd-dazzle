@@ -1,0 +1,42 @@
+[
+    {
+        "id": "strategy",
+        "name": "Strategy",
+        "active": true
+    },
+    {
+        "id": "media",
+        "name": "Media",
+        "active": true
+    },
+    {
+        "id": "synergy",
+        "name": "Synergy",
+        "active": false
+    },
+    {
+        "id": "publicity",
+        "name": "Publicity",
+        "active": true
+    },
+    {
+        "id": "digital",
+        "name": "Digital",
+        "active": true
+    },
+    {
+        "id": "promotions",
+        "name": "Promotions",
+        "active": true
+    },
+    {
+        "id": "research",
+        "name": "Research",
+        "active": true
+    },
+    {
+        "id": "theatre",
+        "name": "In-Theatre",
+        "active": true
+    }
+]

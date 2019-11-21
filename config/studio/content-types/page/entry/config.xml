@@ -1,0 +1,18 @@
+<content-type name="/page/entry" is-wcm-type="true">
+	<label>Home Page</label>
+	<form>/page/entry</form>
+	<form-path>simple</form-path>
+	<model-instance-path>not-used</model-instance-path>
+	<file-extension>xml</file-extension>
+	<content-as-folder>true</content-as-folder>
+	<previewable>true</previewable>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<noThumbnail>true</noThumbnail>
+	<image-thumbnail></image-thumbnail>
+	<paths>
+		<includes>
+			<pattern>^HIDDEN</pattern>
+		</includes>
+	</paths>
+</content-type>

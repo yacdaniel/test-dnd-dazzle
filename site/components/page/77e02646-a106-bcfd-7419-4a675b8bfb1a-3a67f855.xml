@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>f7b7b7c8</objectGroupId>
+	<objectId>f7b7b7c8-9a4c-4eb6-a30b-32cbfae50533</objectId>
+	<file-name>77e02646-a106-bcfd-7419-4a675b8bfb1a-3a67f855.xml</file-name>
+	<internal-name>TIAA Investing</internal-name>
+	<content_html>&lt;h2 class="mc-graphic"&gt;Dazzle Finance wants you to succeed.&amp;nbsp;&lt;/h2&gt;
+&lt;div class="mc-description at-element-marker"&gt;&lt;img src="/static-assets/images/page/favicon.ico" width="123" height="123" /&gt;&lt;/div&gt;
+&lt;div class="mc-description at-element-marker"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="mc-items"&gt;
+&lt;div class="col-sm-6 mc-item     " data-analytics-id="20000889768252_MC_HP_WelcomeUnknown#Col2"&gt;
+&lt;div class="mc-item-description"&gt;
+&lt;div class="mc-items"&gt;
+&lt;div class="mc-item-description"&gt;
+&lt;div&gt;
+&lt;div class="mc-item-description"&gt;ENROLL IN YOUR PLAN&lt;/div&gt;
+&lt;div&gt;Download our app&lt;/div&gt;
+&lt;div class="mc-item-description"&gt;Keep an eye on your account and take us wherever you go.&lt;/div&gt;
+&lt;div class="mc-item-description"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="mc-item-description"&gt;GET THE APP&lt;/div&gt;
+&lt;div class="col-sm-4 mc-item" data-analytics-id="20000890507603_MC_HP_TakeAction_Unknown#Col3"&gt;
+&lt;h4&gt;Contact us&lt;/h4&gt;
+&lt;h4&gt;Call us at&amp;nbsp;&lt;span class="text-bold"&gt;800-842-2252&amp;nbsp;&lt;/span&gt;or find the nearest office.&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content_html>
+	<createdDate>2019-06-23T21:23:52.693Z</createdDate>
+	<createdDate_dt>2019-06-23T21:23:52.693Z</createdDate_dt>
+	<lastModifiedDate>2019-06-26T19:16:24.892Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-26T19:16:24.892Z</lastModifiedDate_dt>
+</component>

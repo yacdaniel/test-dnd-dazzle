@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/targeting/targeter</content-type>	<display-template>/templates/plugins/targeting/targeter.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>e071</objectGroupId>
+	<objectId>e071a1e9-b800-c5e8-b6b3-50e53c0d71c8</objectId>
+	<file-name>e071a1e9-b800-c5e8-b6b3-50e53c0d71c8.xml</file-name>
+	<zone1 item-list="true"/>
+	<createdDate>2019-06-23T21:56:33.188Z</createdDate>
+	<createdDate_dt>2019-06-23T21:56:33.188Z</createdDate_dt>
+	<lastModifiedDate>2019-06-24T12:00:57.794Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-24T12:00:57.794Z</lastModifiedDate_dt>
+	<rules item-list="true">	<item>	<value>anonymous</value>
+	<property>Segment</property>
+	<operator>Equals</operator>
+	<valueInProfile>true</valueInProfile>
+	</item></rules>
+	<internal-name>Target Content</internal-name>
+</component>

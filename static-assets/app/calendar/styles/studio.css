@@ -1,0 +1,11 @@
+body > br {
+    display: none;
+}
+
+body {
+    padding-top: 30px !important;
+}
+
+header .container {
+	position: static;
+}

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file configures Studio's Rich Text Editor (RTE), and it supports several configuration profiles, where the
+	content model selects which profile to use for which RTE field in the forms.
+-->
+<config>
+
+
+    <setup>
+        <id>article</id> <!-- This starts a profile configuration -->
+        <rteStylesheets> <!-- This informs the RTE to use the CSS files -->
+            <link>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/app/css/main.css</url>
+            </link>
+
+            <link>
+                <appliesToChannel>iphonev,iphoneh</appliesToChannel>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/mobile/css/iphone.css</url>
+            </link>
+            <link>
+                <appliesToChannel>iphonev,iphoneh</appliesToChannel>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/mobile/css/libs/jquery.mobile-1.0.min.css</url>
+            </link>
+        </rteStylesheets>
+        
+          <rteStyleOverride>
+			body { margin: 10px; }
+		</rteStyleOverride>
+
+        <toolbarItems1>
+          insertStub, channel,predefinedTable,|,formatselect,|bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,edithtml,|,undo,redo,|,tablecontrols,media,visualblocks,advhr,autosave,directionality,iespell,media,print,table,xhtmlxtras,advimage,bbcode,  emotions,inlinepopups,nonbreaking,template,advlink,contextmenu,example,insertdatetime,noneditable,searchreplace,visualblocks,advlist,cs_contextmenu,example_dependency,layer,pagebreak,spellchecker,visualchars,autolink,cs_inlinepopups,fullpage,legacyoutput,paste,style,wordc,autoresize,cs_table,fullscreen,lists,preview, tabfocus,wordcount,media
+        </toolbarItems1>
+        <toolbarItems2></toolbarItems2>
+        <toolbarItems3></toolbarItems3>
+        <toolbarItems4></toolbarItems4>
+
+        <rteLinkStyles> <!-- configures HTTP link styles within the RTE (double click a link in the RTE and select the
+						`Class` field. -->
+            <style>
+                <!-- first row is the title -->
+                <name>Link Styles</name>
+                <value>Link Styles</value>
+            </style>
+            <style>
+                <name>Standard</name>
+                <value>standard</value>
+            </style>
+            <style>
+                <name>Single</name>
+                <value>single</value>
+            </style>
+            <style>
+                <name>Hidden</name>
+                <value>hidden</value>
+            </style>
+            <style>
+                <name>Title link</name>
+                <value>titleLink</value>
+            </style>
+            <style>
+                <name>Button</name>
+                <value>mediumButton</value>
+            </style>
+        </rteLinkStyles>
+
+        <!-- Widgets: These are Crafter components that can be dragged and dropped in the RTE -->
+        <rteWidgets>
+            <!--
+            <widget>
+                <name />
+                <description />
+                <contentIdField />
+                <contentIdType />
+                <contentPath />
+                <contentType />
+                <includeJs />
+                <includeCss />
+            </widget>
+            -->
+        </rteWidgets>
+
+	   
+            <rteTables>
+           <table>
+               <name>Checkered</name>
+               <prototype>
+                  <![CDATA[
+                  <table>
+                     <tr><td>ROW 1 Col 1</td><td>ROW 1 Col 2</td></tr>
+                     <tr><td>ROW 2 Col 1</td><td>ROW 2 Col 2</td></tr>
+                  </table>
+                  ]]>
+               </prototype>
+           </table>
+        </rteTables>
+        
+        <!-- Macros -->
+        <rteStubs>
+        	<stub>
+            	<name>Store Count</name>
+                <prototype> [STORE_COUNT] </prototype>
+			</stub>
+            <stub>
+            	<name>SE Name</name>
+                <prototype> [SE_NAME] </prototype>
+			</stub>
+        </rteStubs>
+        
+        <!-- Modules: -->
+        <rteModules>
+            <module>insert-image</module>
+            <module>channel</module>
+            <module>edit-html</module>
+            <module>insert-predefined-table</module>
+            <module>channel</module>
+            <module>insert-stub</module>
+        </rteModules>
+    </setup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <setup>
+        <id>generic</id> <!-- This starts a profile configuration -->
+        <rteStylesheets> <!-- This informs the RTE to use the CSS files -->
+            <link>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/css/style.css</url>
+            </link>
+
+            <link>
+                <appliesToChannel>iphonev,iphoneh</appliesToChannel>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/mobile/css/iphone.css</url>
+            </link>
+            <link>
+                <appliesToChannel>iphonev,iphoneh</appliesToChannel>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/mobile/css/libs/jquery.mobile-1.0.min.css</url>
+            </link>
+        </rteStylesheets>
+
+        <toolbarItems1>
+            formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,edithtml,|,undo,redo,tablecontrols,tables
+        </toolbarItems1>
+        <toolbarItems2></toolbarItems2>
+        <toolbarItems3></toolbarItems3>
+        <toolbarItems4></toolbarItems4>
+
+        <rteLinkStyles> <!-- configures HTTP link styles within the RTE (double click a link in the RTE and select the
+						`Class` field. -->
+            <style>
+                <!-- first row is the title -->
+                <name>Link Styles</name>
+                <value>Link Styles</value>
+            </style>
+            <style>
+                <name>Standard</name>
+                <value>standard</value>
+            </style>
+            <style>
+                <name>Single</name>
+                <value>single</value>
+            </style>
+            <style>
+                <name>Hidden</name>
+                <value>hidden</value>
+            </style>
+            <style>
+                <name>Title link</name>
+                <value>titleLink</value>
+            </style>
+            <style>
+                <name>Button</name>
+                <value>mediumButton</value>
+            </style>
+        </rteLinkStyles>
+
+        <!-- Widgets: These are Crafter components that can be dragged and dropped in the RTE -->
+        <rteWidgets>
+            <!--
+            <widget>
+                <name />
+                <description />
+                <contentIdField />
+                <contentIdType />
+                <contentPath />
+                <contentType />
+                <includeJs />
+                <includeCss />
+            </widget>
+            -->
+        </rteWidgets>
+
+        <!-- Modules: -->
+        <rteModules>
+            <module>insert-image</module>
+            <module>channel</module>
+            <module>edit-html</module>
+        </rteModules>
+    </setup>
+
+
+
+    <setup>
+        <id>dnd</id> <!-- This starts a profile configuration -->
+        <rteStylesheets> <!-- This informs the RTE to use the CSS files -->
+            <link>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/app/css/main.css</url>
+            </link>
+
+            <link>
+                <appliesToChannel>iphonev,iphoneh</appliesToChannel>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/mobile/css/iphone.css</url>
+            </link>
+            <link>
+                <appliesToChannel>iphonev,iphoneh</appliesToChannel>
+                <loadFromPreview>true</loadFromPreview>
+                <url>/static-assets/mobile/css/libs/jquery.mobile-1.0.min.css</url>
+            </link>
+        </rteStylesheets>
+        
+          <rteStyleOverride>
+			body { 
+            	margin: 10px; 
+                background: black !important;
+                color: white !important;
+            }
+            
+            h1 {
+            color: #39b54a !important;
+            }
+            
+           	h2, h3, h4 {
+            color: white !important;
+            }
+		</rteStyleOverride>
+
+        <toolbarItems1>
+            formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
+        </toolbarItems1>
+        <toolbarItems2></toolbarItems2>
+        <toolbarItems3></toolbarItems3>
+        <toolbarItems4></toolbarItems4>
+
+        <rteLinkStyles> <!-- configures HTTP link styles within the RTE (double click a link in the RTE and select the
+						`Class` field. -->
+            <style>
+                <!-- first row is the title -->
+                <name>Link Styles</name>
+                <value>Link Styles</value>
+            </style>
+            <style>
+                <name>Standard</name>
+                <value>standard</value>
+            </style>
+            <style>
+                <name>Single</name>
+                <value>single</value>
+            </style>
+            <style>
+                <name>Hidden</name>
+                <value>hidden</value>
+            </style>
+            <style>
+                <name>Title link</name>
+                <value>titleLink</value>
+            </style>
+            <style>
+                <name>Button</name>
+                <value>mediumButton</value>
+            </style>
+        </rteLinkStyles>
+
+        <!-- Widgets: These are Crafter components that can be dragged and dropped in the RTE -->
+        <rteWidgets>
+            <!--
+            <widget>
+                <name />
+                <description />
+                <contentIdField />
+                <contentIdType />
+                <contentPath />
+                <contentType />
+                <includeJs />
+                <includeCss />
+            </widget>
+            -->
+        </rteWidgets>
+
+        <!-- Modules: -->
+        <rteModules>
+            <module>insert-image</module>
+            <module>channel</module>
+            <module>edit-html</module>
+        </rteModules>
+    </setup>
+    <rteTablestyles>
+
+        <checkered><![CDATA[
+								
+								var trs = currentTable.rows;
+								var alternateRow = true;
+								var color;
+								var oddstyles = 'oddrowcolor';
+								oddstyles = oddstyles.split(' ');
+								var eventstyles = 'evenrowcolor';
+								eventstyles = eventstyles.split(' ');
+								var k = 0;
+								for (var j=0; j<trs.length; j++) {
+								
+									if(j > 0){
+										if(trs[j].className == 'tblSub'){
+											k = j;
+											continue;
+										}
+									
+										var tds =  trs[j].getElementsByTagName('td');
+										
+										for(var i =0; i < tds.length; ++i){
+											if(i == 0){
+												 color = (alternateRow == true ?'#FFCC66': '#BCE6BC');
+												alternateRow = !alternateRow;
+											}else{
+												color = (color == '#BCE6BC' ? '#FFCC66' : '#BCE6BC');
+											}
+											if((j - k)%2 != 0){
+
+													tds[i].style.backgroundColor = '#efefef';
+													if( oddstyles.length > i){
+														if(i == (tds.length - 1) ){
+															tds[i].className = oddstyles[oddstyles.length - 1] ;
+														}else{
+														tds[i].className = oddstyles[i] ;
+														}
+													}else{
+														tds[i].className = oddstyles[oddstyles.length - 1] ;
+													}
+													tds[i].style.backgroundColor= color ;								
+											}else {
+													tds[i].style.backgroundColor = '#fff';
+
+													if( eventstyles.length > i){
+														if(i == (tds.length - 1) ){
+															tds[i].className = eventstyles[eventstyles.length - 1] ;
+														}else{
+															tds[i].className = eventstyles[i] ;
+														}
+														
+													}else{
+														tds[i].className = eventstyles[oddstyles.length - 1] ;
+													}
+													tds[i].style.backgroundColor= color ;																			}
+										}
+									}
+								}
+
+			]]>
+        </checkered>
+        <altrowstable><![CDATA[
+						var trs = currentTable.rows;
+								var oddstyles = 'oddrowcolor';
+								oddstyles = oddstyles.split(' ');
+								var eventstyles = 'eddrowcolor'; //should be evenstyles
+								eventstyles = eventstyles.split(' ');
+								var k = 0;
+								for (var j=0; j<trs.length; j++) {
+								
+									if(j > 0){
+										if(trs[j].className == 'tblSub'){
+											k = j;
+											continue;
+										}
+									
+										var tds =  trs[j].getElementsByTagName('td');
+										
+										for(var i =0; i < tds.length; ++i){
+											
+											if((j - k)%2 != 0){
+												if( oddstyles.length > i){
+													if(i == (tds.length - 1) ){
+															tds[i].className = oddstyles[oddstyles.length - 1] ;
+														}else{
+														tds[i].className = oddstyles[i] ;
+													}
+												}else{
+													tds[i].className = oddstyles[oddstyles.length - 1] ;
+												}
+											}else {
+												if( eventstyles.length > i){
+													if(i == (tds.length - 1) ){
+															tds[i].className = eventstyles[eventstyles.length - 1] ;
+														}else{
+															tds[i].className = eventstyles[i] ;
+														}
+												}else{
+													tds[i].className = eventstyles[oddstyles.length - 1] ;
+												}
+											}
+										}
+									}
+								}
+			]]>
+        </altrowstable>
+    </rteTablestyles>
+</config>

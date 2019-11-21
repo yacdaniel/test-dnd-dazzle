@@ -1,0 +1,209 @@
+<article ng-if="!multiMode && asset" class="asset-panel">
+        <div class="container">
+            <img ng-src="/api/1/services/rendition.json?id={{asset.id}}&resolution=300x150"
+                  class="image"/>
+            <div class="content">
+                <hgroup class="title-section">
+                    <h1 class="title">{{asset.title}}</h1>
+                    <p>{{asset.rating}} {{formatDate(asset.releaseDateUS)}} | {{duration(asset.duration)}}</p>
+                </hgroup>
+                <section class="asset-metadata">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <dl>
+    
+                                <dt>U.S. Release Date:</dt>
+                                <dd>{{formatDate(asset.releaseDateUS)}}</dd>
+    
+                                <dt>In-Home Release:</dt>
+                                <dd>{{formatDate(asset.releaseDateHome)}}</dd>
+    
+                                <dt>Director(s):</dt>
+                                <dd>
+                                        <span ng-repeat="i in asset.directors">
+                                            <a href="/browse.html#/?categories={{i.id}}">{{i.label}}</a>
+                                        </span>
+                                </dd>
+    
+                                <dt>Producer(s):</dt>
+                                <dd>
+                                        <span ng-repeat="i in asset.producers">
+                                            <a href="/browse.html#/?categories={{i.id}}">{{i.label}}</a>
+                                        </span>
+                                </dd>
+    
+                                <dt>Cast:</dt>
+                                <dd>
+                                        <span ng-repeat="i in asset.cast">
+                                            <a href="/browse.html#/?categories={{i.id}}">{{i.label}}</a>
+                                        </span>
+                                </dd>
+    
+                                <dt>Genre:</dt>
+                                <dd>
+                                        <span ng-repeat="i in asset.genre">
+                                            <a href="/browse.html#/?categories={{i.id}}">{{i.label}}</a>
+                                        </span>
+                                </dd>
+    
+                            </dl>
+                        </div>
+                        <div class="col-sm-3">
+                            <h2>Marketing Campaign</h2>
+                            <dropdown class="dropdown">
+                                <dropdown-toggle class="dropdown-toggle btn btn-default">
+                                    Overviews <b class="caret"></b>
+                                </dropdown-toggle>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a>Calendar &amp; Milestones</a>
+                                        <a>Living Doc</a>
+                                    </li>
+                                </ul>
+                            </dropdown>
+                        </div>
+                        <div class="col-sm-3">
+                            <h2>Links</h2>
+                            <a href="javascript:">Offcial Website</a>
+                            <div class="social">
+                                <ul class="list-inline">
+                                    <li class="fa fa-facebook-square"><a href="javascript:"></a></li>
+                                    <li class="fa fa-twitter-square"><a href="javascript:"></a></li>
+                                    <li class="fa fa-youtube-square"><a href="javascript:"></a></li>
+                                    <li class="fa fa-tumblr-square"><a href="javascript:"></a></li>
+                                    <li class="fa fa-pinterest-square"><a href="javascript:"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <button class="toggle" onclick="$(this).parent().toggleClass('collapsed')">
+            <span class="sr-only">Toggle Panel</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </article>
+    <div class="container main-child">
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li ng-if="asset"><a href="/details/#/id={{asset.id}}">{{asset.title}}</a></li>
+                <li><a href="javascript:">Calendar &amp; Milestones</a></li>
+            </ul>
+        </div>
+        <div class="calendar-container">
+            <header>
+                <h2 class="title">Calendar &amp; Milestones</h2>
+                <div class="view-switcher">
+                    <dropdown class="dropdown">
+                        <dropdown-toggle class="dropdown-toggle btn btn-default">
+                            {{view.label}} <b class="caret"></b>
+                        </dropdown-toggle>
+                        <ul class="dropdown-menu">
+                            <li ng-repeat="choice in views"
+                                ui-sref-active="active">
+                                <a ui-sref="{{choice.sref}}">{{choice.label}}</a>
+                            </li>
+                        </ul>
+                    </dropdown>
+                </div>
+                <div class="navigator">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="javascript:" class="btn btn-default" ng-click="prev()">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:" class="btn btn-default" ng-click="today()">
+                                Today
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:" class="btn btn-default" ng-click="next()">
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div ui-view></div>
+        </div>
+        <form id="eventForm" name="eventForm" class="popover bottom event-popover in fade"
+              ng-submit="saveEvent()">
+            <div class="arrow"></div>
+            <div class="popover-inner">
+                <h3 class="popover-title">
+                    <input type="text" class="form-control" ng-model="event.title" name="title" required/>
+                </h3>
+                <div class="popover-content">
+    
+                    <input type="hidden" name="id" ng-model="event.id"/>
+                    <input type="hidden" name="contentId" ng-value="event.contentId"/>
+                    <input type="hidden" name="start" ng-model="event.start"/>
+                    <input type="hidden" name="end" ng-model="event.end" />
+    
+                    <div class="form-group">
+                        <label><input type="checkbox" ng-model="event.allDay"/> All Day</label>
+                    </div>
+                    <div class="form-group row" ng-hide="event.allDay">
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control"
+                                    ng-model="event.startDate"
+                                    ng-change="event.start = dateFromString(event.startDate)"/>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control"
+                                    ng-model="event.endDate"
+                                    ng-change="event.end = dateFromString(event.endDate)"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                    <textarea name="description"
+                              class="form-control"
+                              ng-model="event.description"
+                              placeholder="e.g. Planning meeting for new movie."></textarea>
+                    </div>
+    
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="fCalendar" class="col-sm-3 control-label">Calendar:</label>
+                            <div class="col-sm-9">
+                                <select 
+                                    required
+                                    id="fCalendar"
+                                    name="departmentId"
+                                    class="form-control"
+                                    ng-model="event.departmentId"
+                                    ng-init="event.departmentId"
+                                    ng-options="department.id as department.name for department in departments"
+                                >
+                                    <option value="">{{event.departmentId}}</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Contact:</label>
+                            <div class="col-sm-9">
+                                <input type="email"
+                                        name="contact"
+                                        class="form-control"
+                                        placeholder="e.g. test@gmail.com"
+                                        ng-model="event.contact"/>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="popover-footer">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                    <button class="btn btn-default" type="button" ng-click="cancelEventForm()">Cancel</button>
+                    <button class="btn btn-danger pull-right" type="button" ng-if="event.id" ng-click="deleteEvent()">Delete</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    

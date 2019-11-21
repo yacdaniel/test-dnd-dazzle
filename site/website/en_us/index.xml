@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/redirect</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1873</objectGroupId>
+	<objectId>18732500-a466-12d3-fe54-631a0416c64e</objectId>
+	<internal-name>en_us -&gt; en</internal-name>
+	<redirect-url>/en</redirect-url>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>en_us</folder-name>
+	<createdDate>2017-12-12T03:56:12.024Z</createdDate>
+	<createdDate_dt>2017-12-12T03:56:12.024Z</createdDate_dt>
+	<lastModifiedDate>2019-06-21T18:10:42.393Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-21T18:10:42.393Z</lastModifiedDate_dt>
+</page>

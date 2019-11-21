@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer" parent="crafter.properties"/>
+
+    <bean id="articleService" class="services.ArticleService">
+        <property name="elasticsearch"  ref="crafter.elasticsearchService" />
+    </bean>
+
+    <bean id="targetedContentService" class="services.targetedContentService">
+        <property name="elasticsearch"  ref="crafter.elasticsearchService" />
+        <property name="siteItemService"  ref="crafter.siteItemService" />
+        <property name="targetingHelper"  ref="targetingHelper" />
+    </bean>
+    
+
+    <bean id="siteContentService" class="services.SiteContentService">
+        <property name="siteItemService"  ref="crafter.siteItemService" />
+    </bean>
+    
+    <bean id="eventService" class="services.EventService">
+        <!--property name="elasticsearch"  ref="crafter.elasticsearchService" /-->
+    </bean>
+    <bean id="targetingHelper" class="helpers.TargetingHelper">
+    </bean>
+<!--
+    <bean id="kinesisProducerHelper" class="helpers.aws.KinesisProducerHelper">
+
+    </bean>
+-->
+</beans>

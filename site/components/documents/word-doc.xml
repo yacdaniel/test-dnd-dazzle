@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/document</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d4af</objectGroupId>
+	<objectId>d4afc4c1-8616-0494-3046-4ff0ae540bd9</objectId>
+	<file-name>word-doc.xml</file-name>
+	<folder-name/>
+	<internal-name>Word Doc</internal-name>
+	<author>Russ Danner</author>
+	<document item-list="true">	<item>	<key>/static-assets/documents/copy-word-demo.docx</key>
+	<value>/static-assets/documents/copy-word-demo.docx</value>
+	<fileType_mvs>docx</fileType_mvs>
+	<fileSize_s>78KB</fileSize_s>
+	</item></document>
+	<createdDate>2018-07-09T14:14:30.206Z</createdDate>
+	<createdDate_dt>2018-07-09T14:14:30.206Z</createdDate_dt>
+	<lastModifiedDate>2019-06-21T18:11:14.201Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-21T18:11:14.201Z</lastModifiedDate_dt>
+	<topic>	<item>	<key>Finance</key>
+	<value>Finance</value>
+	</item></topic>
+</component>

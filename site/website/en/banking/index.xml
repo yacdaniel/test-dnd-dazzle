@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>561a25c4</objectGroupId>
+	<objectId>561a25c4-3d94-405d-a832-60c23206b492</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>banking</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>0.0</orderDefault_f>
+	<internal-name>Banking</internal-name>
+	<authorName>Banking Specialist</authorName>
+	<authorPosition/>
+	<title>Bank Services</title>
+	<authorImage>/static-assets/images/authors/Brian-Pix.png</authorImage>
+	<bodyContent>&lt;div class="hero-component clearfix white" data-analytics-section="subpage" data-analytics-id="20000168598350_H_SVC_Services" data-attribute-pflag="pfno" data-analytics-section-rownum="1" data-tagpdsevent="433"&gt;
+&lt;div class="container" data-analytics-section="component" data-analytics-id="20000168598350_H_SVC_Services" data-analytics-componenttype="hero-component"&gt;
+&lt;div class="hc-content cusNoAnimation"&gt;
+&lt;div class="hc-eyebrow"&gt;
+&lt;section _ngcontent-c0="" aria-label="TIAA Bank Basic Accounts" class="hero hero_split hero_light-blue" role="complementary"&gt;
+&lt;div _ngcontent-c0="" class="hero__inner"&gt;
+&lt;div _ngcontent-c0="" class="hero__main"&gt;
+&lt;h1 _ngcontent-c0="" class="hero__brow"&gt;OPEN A NEW BANK ACCOUNT&lt;/h1&gt;
+&lt;h2 _ngcontent-c0="" class="hero__headline"&gt;[STORE_COUNT] We&amp;rsquo;ve made simple, simply perfect&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div _ngcontent-c0="" class="hero__feature"&gt;
+&lt;p _ngcontent-c0=""&gt;We might call them basic accounts, but there&amp;rsquo;s nothing basic about what they can do. With a lower minimum entry point than our high yield offering, they might just be all the account you need. [SE_NAME]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div _ngcontent-c0="" aria-label="Open an account" class="action-bar" id="mainContent" role="complementary"&gt;
+&lt;div _ngcontent-c0="" class="action-bar__inner"&gt;
+&lt;div _ngcontent-c0="" class="action-bar__cta" tb-action-bar-cta=""&gt;&lt;span _ngcontent-c0="" class="action-bar__cta-text"&gt;Open online in as few as 5 minutes or visit one of our [STORE_COUNT] branch locations.&amp;nbsp;&lt;/span&gt;&lt;a _ngcontent-c0="" class="action-bar__cta-btn" href="https://www.tiaabank.com/apply" tb-apply-link="" tb-nav-cta-target=""&gt;&lt;br /&gt;&lt;/a&gt;&lt;span _ngcontent-c0="" class="action-bar__cta-phone"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section _ngcontent-c0="" aria-label="Basic checking info" class="wrap" role="main"&gt;
+&lt;div _ngcontent-c0="" class="contain contain_pad contain_pad-vrt"&gt;
+&lt;div _ngcontent-c0="" class="content"&gt;
+&lt;div _ngcontent-c0="" class="content__body"&gt;
+&lt;div _ngcontent-c0="" class="mu-flex mu-flex_pad-all-xs mu-flex_wid-12@w768 mu-flex_jfy-ctr mu-flex_wid-8@w1024 mu-flex_jfy-stt@w1024 mu-box_nest-xs"&gt;
+&lt;article _ngcontent-c0="" class="mu-flex__item"&gt;
+&lt;div _ngcontent-c0="" class="mu-card mu-card_fill-hgt"&gt;
+&lt;div _ngcontent-c0="" class="mu-card__content mu-txt_ctr mu-box_mrg-btm-xl"&gt;
+&lt;h2 _ngcontent-c0=""&gt;Basic Checking&amp;nbsp;&lt;/h2&gt;
+&lt;p _ngcontent-c0=""&gt;The everyday account for your everyday needs. Online and mobile banking come free and will keep you fully connected and in charge of your money anytime, anywhere.&lt;/p&gt;
+&lt;ul _ngcontent-c0="" class="list list_bullet"&gt;
+&lt;li _ngcontent-c0="" class="list__item list__item_bullet"&gt;$25 to open&lt;span _ngcontent-c0=""&gt;1&lt;/span&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;No monthly account fee with&amp;nbsp;&lt;span _ngcontent-c0="" class="mu-link_dashed mu-link_black" href="#" tb-tooltip="" title="" aria-label="Keep just $25 or more in your account to avoid the $5 monthly fee."&gt;minimum balance&lt;/span&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;&lt;span _ngcontent-c0="" class="mu-link_dashed mu-link_black" href="#" tb-tooltip="" title="" aria-label="Keep a minimum of $5,000 in your account, and we&amp;rsquo;ll reimburse you monthly for all ATM fees charged by other banks. For balances under $5,000, get reimbursed for up to $15 in ATM fees monthly."&gt;ATM fee reimbursements&lt;/span&gt;&lt;span _ngcontent-c0=""&gt;2&lt;/span&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;&lt;a _ngcontent-c0="" href="https://www.tiaabank.com/banking/mobile-banking"&gt;Mobile check deposits&lt;span _ngcontent-c0=""&gt;3&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;Free online bill pay&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;Debit card with&amp;nbsp;&lt;a _ngcontent-c0="" aria-label="Debit card purchase benefits" class="mu-link" href="https://www.tiaabank.com/banking/basic-accounts#debit-purchase-safeguards"&gt;purchase benefits&lt;/a&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;Easy mobile payments&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item list__item_icon list__item_file-text"&gt;&lt;a _ngcontent-c0="" aria-label="Basic checking account summary" class="mu-link" href="https://www.tiaabank.com/media_library/tiaabank/_shared/pdf/terms-basic-checking.pdf"&gt;Simple account summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;article _ngcontent-c0="" class="mu-flex__item"&gt;
+&lt;div _ngcontent-c0="" class="mu-card mu-card_fill-hgt mu-card_w-action-bar"&gt;
+&lt;div _ngcontent-c0="" class="mu-card__content mu-txt_ctr"&gt;
+&lt;h2 _ngcontent-c0=""&gt;Basic Savings&lt;/h2&gt;
+&lt;p _ngcontent-c0=""&gt;There&amp;rsquo;s no better time to start saving than now. This is a great, interest-bearing companion account to our Basic Checking account; use it to save and for overdraft protection.&lt;/p&gt;
+&lt;ul _ngcontent-c0="" class="list list_bullet"&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;$25 to open&lt;span _ngcontent-c0=""&gt;4&lt;/span&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;No monthly account fee with&lt;span _ngcontent-c0="" class="mu-link_dashed mu-link_black" href="#" tb-tooltip="" title="" aria-label="Keep just $25 or more in your account to avoid the $5 fee."&gt;minimum balance&lt;/span&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;&lt;a _ngcontent-c0="" href="https://www.tiaabank.com/banking/mobile-banking"&gt;Mobile check deposits&lt;span _ngcontent-c0=""&gt;3&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;Up to 6 transfers or withdrawals per month&lt;span _ngcontent-c0=""&gt;5&lt;/span&gt;&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;IRA eligible&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item list__item_icon list__item_file-text"&gt;&lt;a _ngcontent-c0="" aria-label="Basic savings account summary" class="mu-link" href="https://www.tiaabank.com/media_library/tiaabank/_shared/pdf/terms-basic-savings.pdf"&gt;Simple account summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div _ngcontent-c0="" class="mu-card__action-bar"&gt;&lt;a _ngcontent-c0="" aria-label="View todays basic savings rates" class="mu-btn mu-btn_outline" href="https://www.tiaabank.com/banking/basic-accounts#basic-savings"&gt;VIEW TODAY&amp;rsquo;S RATES&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;article _ngcontent-c0="" class="mu-flex__item"&gt;
+&lt;div _ngcontent-c0="" class="mu-card mu-card_fill-hgt mu-card_w-action-bar"&gt;
+&lt;div _ngcontent-c0="" class="mu-card__content mu-txt_ctr"&gt;
+&lt;h2 _ngcontent-c0=""&gt;Basic CDs&lt;/h2&gt;
+&lt;p _ngcontent-c0=""&gt;Ready to put away some money for a rainy day? With these CDs, you can lock in savings on your terms. So why get just one? Consider our range of terms.&lt;/p&gt;
+&lt;ul _ngcontent-c0="" class="list list_bullet"&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;$1,000 to open&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;Terms from 3 months to 5 years&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;20-day maturity alert&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;Automatic rollover&lt;/li&gt;
+&lt;li _ngcontent-c0="" class="list__item"&gt;IRA eligible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section _ngcontent-c0="" aria-label="TIAA Bank Tools" class="wrap mu-color_gray-1-bg" role="complementary"&gt;
+&lt;div _ngcontent-c0="" class="contain contain_pad contain_pad-vrt"&gt;
+&lt;div _ngcontent-c0="" class="content"&gt;
+&lt;div _ngcontent-c0="" class="content__lead"&gt;
+&lt;h2 _ngcontent-c0="" class="mu-hdr_brow mu-hdr_h5-sm"&gt;EXPECT MORE&lt;/h2&gt;
+&lt;h3 _ngcontent-c0=""&gt;Get more bank for your buck&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div _ngcontent-c0="" class="content__body"&gt;
+&lt;div _ngcontent-c0="" class="features"&gt;
+&lt;div _ngcontent-c0="" class="features__item"&gt;&lt;img _ngcontent-c0="" alt="" class="features__icon" src="https://www.tiaabank.com/media_library/tiaabank/com/img/icon-mobile-banking.svg" /&gt;&lt;/div&gt;
+&lt;div _ngcontent-c0="" class="features__item"&gt;&lt;span style="font-size: 1.6rem;"&gt;1.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;tb-disclosures _ngcontent-c0="" class="disclosures"&gt;
+&lt;div class="disclosures__inner"&gt;&lt;dl class="disclosures__list"&gt;&lt;dt class="disclosures__index" id="disclosure-global-6.27"&gt;&lt;/dt&gt;&lt;dd class="disclosures__def"&gt;
+&lt;p&gt;Must be an existing Bank client eligible to enroll in Online Check Deposit using the downloadable Android or Apple mobile app. See our Online Check Deposit Services Agreement for information on crediting of deposits. Funds availability subject to our Funds Availability Disclosure. Both are found in your Personal Account Terms, Disclosures and Agreements Booklet. Subject to approval.&lt;/p&gt;
+&lt;/dd&gt;&lt;dt class="disclosures__index"&gt;&lt;/dt&gt;&lt;/dl&gt;
+&lt;p&gt;2.&lt;/p&gt;
+&lt;dl class="disclosures__list"&gt;&lt;dt class="disclosures__index" id="disclosure-global-6.6"&gt;&lt;/dt&gt;&lt;dd class="disclosures__def"&gt;
+&lt;p&gt;The Basic Savings Account is a variable rate account. The quoted interest rates and Annual Percentage Yields (APYs) are accurate as of 06/21/2019 12:00 AM. Interest rates and APYs are subject to change without notice. The required minimum opening deposit is $25. For any month in which the account&amp;#39;s average daily balance is below $25, a $5 fee applies. Fees may reduce earnings. The minimum opening deposit requirement and monthly account fee are waived for residents of Rhode Island.&lt;/p&gt;
+&lt;/dd&gt;&lt;dt class="disclosures__index"&gt;&lt;/dt&gt;&lt;/dl&gt;
+&lt;p&gt;3.&lt;/p&gt;
+&lt;dl class="disclosures__list"&gt;&lt;dt class="disclosures__index" id="disclosure-global-6.11"&gt;&lt;/dt&gt;&lt;dd class="disclosures__def"&gt;
+&lt;p&gt;Federal regulation limits this account to 6 transfers or withdrawals per month, for most types of transfers and withdrawals. Certain transfers and withdrawals are not subject to this limit. See the Account Terms, Disclosures and Agreements Booklet for details. Withdrawals and transfers above this limit are subject to a fee. We may close or convert your account to a checking account for repeated occurrences.&lt;/p&gt;
+&lt;/dd&gt;&lt;dt class="disclosures__index"&gt;&lt;/dt&gt;&lt;/dl&gt;
+&lt;p&gt;4.&lt;/p&gt;
+&lt;dl class="disclosures__list"&gt;&lt;dt class="disclosures__index" id="disclosure-global-6.3.2"&gt;&lt;/dt&gt;&lt;dd class="disclosures__def"&gt;
+&lt;p&gt;We promise that the yield on your Yield Pledge&lt;span&gt;&amp;reg;&lt;/span&gt;&amp;nbsp;Checking and/or Money Market Account will stay in the Top 5% of Competitive Accounts based on the&amp;nbsp;&lt;a href="https://www.bankrate.com/" target="_blank" rel="noopener"&gt;&lt;span&gt;Bankrate Monitor National Index survey data&lt;/span&gt;&lt;/a&gt;&amp;nbsp;from the last week of each month. The yield on your Yield Pledge CD will be in the top 5% of Competitive Accounts at the time you open, renew, or roll your expiring CD into a new Yield Pledge CD based on&amp;nbsp;&lt;span&gt;&lt;a href="https://www.bankrate.com/" target="_blank" rel="noopener"&gt;Bankrate Monitor National Index survey data&lt;/a&gt;&lt;/span&gt;&amp;nbsp;from that week. "Competitive Accounts" are similar accounts from the 10 largest banks and thrifts in 10 large U.S. banking markets. This includes data from the 5 largest banks and 5 largest thrifts in each market for which rates are available, except in markets without 5 banks and 5 thrifts. Each week&amp;nbsp;&lt;a href="https://www.bankrate.com/" target="_blank" rel="noopener"&gt;&lt;span&gt;Bankrate&lt;/span&gt;&lt;/a&gt;&amp;nbsp;surveys these institutions and distributes its results to certain institutions on a paid-for basis. Not all institutions report each week. In the event Bankrate Monitor&amp;#39;s National Index does not include any information for a specific Bank Yield Pledge CD term, we will average the data for the two closest terms (higher and lower) to establish the minimum yield for the unrepresented term. We reserve the right to change, at any time and without prior notice to you, our Yield Pledge calculation method as necessary to accommodate changes in Bankrate&amp;#39;s survey and/or its distribution methodology, including, without limitation, by switching to a different, comparable methodology that may not be based on information from Bankrate.&lt;/p&gt;
+&lt;/dd&gt;&lt;dt class="disclosures__index"&gt;&lt;/dt&gt;&lt;/dl&gt;
+&lt;p&gt;5.&lt;/p&gt;
+&lt;dl class="disclosures__list"&gt;&lt;dt class="disclosures__index" id="disclosure-global-6.4"&gt;&lt;/dt&gt;&lt;dd class="disclosures__def"&gt;
+&lt;p&gt;The quoted Yield Pledge&lt;span&gt;&amp;reg;&lt;/span&gt;&amp;nbsp;CD interest rates and Annual Percentage Yields (APYs) are accurate as of 06/21/2019 12:00 AM. APY assumes interest remains on deposit until maturity. These interest rates and APYs are applicable to CD principal balances up to $1 million. Please call for interest rates and APYs applicable to CDs exceeding $1 million. The required minimum opening deposit is $5,000. Early withdrawal penalties apply. Fees may reduce earnings.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;
+&lt;/tb-disclosures&gt;&lt;/div&gt;
+&lt;h1 class="hc-heading"&gt;&lt;br /&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</bodyContent>
+	<navLabel>Banking</navLabel>
+	<disabled>false</disabled>
+	<createdDate>2018-01-25T22:39:01.635Z</createdDate>
+	<createdDate_dt>2018-01-25T22:39:01.635Z</createdDate_dt>
+	<lastModifiedDate>2019-07-01T17:51:05.857Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-07-01T17:51:05.857Z</lastModifiedDate_dt>
+	<expireDate_dt>2018-01-25T22:39:01.000Z</expireDate_dt>
+	<keywords>Article</keywords>
+	<col1 item-list="true">	<item>	<key>/site/components/page/8d718897-6bd4-120c-967c-ff769819b988-a0d784fd.xml</key>
+	<value>Email Form - Banking</value>
+	<include>/site/components/page/8d718897-6bd4-120c-967c-ff769819b988-a0d784fd.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></col1>
+	<demofield>This is a demo field</demofield>
+	<expireDate_dt_tz>EST5EDT</expireDate_dt_tz>
+</page>

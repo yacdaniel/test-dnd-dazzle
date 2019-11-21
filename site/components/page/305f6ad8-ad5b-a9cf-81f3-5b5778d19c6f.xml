@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/2-col</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-2-col.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>305f</objectGroupId>
+	<objectId>305f6ad8-ad5b-a9cf-81f3-5b5778d19c6f</objectId>
+	<zone1 item-list="true">	<item>	<value>cvvccxvx</value>
+	<key>/site/components/page/9404ea0c-8d47-7eb2-24d0-1e27f1e60d7e.xml</key>
+	<include>/site/components/page/9404ea0c-8d47-7eb2-24d0-1e27f1e60d7e.xml</include>
+	</item></zone1>
+	<zone2 item-list="true"/>
+	<file-name>305f6ad8-ad5b-a9cf-81f3-5b5778d19c6f.xml</file-name>
+	<internal-name>Two Column Layout</internal-name>
+	<sectionID>content</sectionID>
+	<createdDate>2019-08-14T14:35:36.884Z</createdDate>
+	<createdDate_dt>2019-08-14T14:35:36.884Z</createdDate_dt>
+	<lastModifiedDate>2019-08-14T14:35:36.884Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-08-14T14:35:36.884Z</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,37 @@
+<site>
+
+    <targeting>
+        <enabled>true</enabled>
+        <rootFolders>/site/website</rootFolders>
+        <fallbackTargetId>en</fallbackTargetId>
+        <mergeFolders>true</mergeFolders>
+        <redirectToTargetedUrl>true</redirectToTargetedUrl>
+    </targeting>
+    
+    <jobs>
+        <jobFolder>
+            <path>/scripts/jobs/every-minute</path>
+            <cronExpression>0 0/1 * * * ?</cronExpression>
+        </jobFolder>
+    </jobs>
+    
+    
+    <filters>  
+        <!--filter>
+            <script>/scripts/filters/Timer.groovy</script>
+                <mapping>
+                    <include>/**</include>
+                </mapping>
+           
+        </filter-->
+
+        <filter>
+            <script>/scripts/filters/ReverseProxy.groovy</script>
+            <mapping>
+                <include>/apix/**</include>
+            </mapping>
+        </filter>
+
+    </filters>
+
+</site>

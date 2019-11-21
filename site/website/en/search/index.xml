@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/search</content-type>	<display-template>/templates/web/search.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f787</objectGroupId>
+	<objectId>f7879193-5767-0a8c-e4ac-84437452030c</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>search</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>Search</internal-name>
+	<createdDate>2019-06-21T18:10:28.296Z</createdDate>
+	<createdDate_dt>2019-06-21T18:10:28.296Z</createdDate_dt>
+	<lastModifiedDate>2019-06-21T18:10:28.296Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-21T18:10:28.296Z</lastModifiedDate_dt>
+</page>

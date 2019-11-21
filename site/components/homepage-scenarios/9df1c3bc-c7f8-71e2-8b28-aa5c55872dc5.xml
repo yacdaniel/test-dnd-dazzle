@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/home-page-scenario</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>9df1</objectGroupId>
+	<objectId>9df1c3bc-c7f8-71e2-8b28-aa5c55872dc5</objectId>
+	<file-name>9df1c3bc-c7f8-71e2-8b28-aa5c55872dc5.xml</file-name>
+	<internal-name>Default</internal-name>
+	<bckgroundImage>/static-assets/images/homepage-scenarios/home-default-page-scenario.jpg</bckgroundImage>
+	<hoverImageLarge>/static-assets/images/homepage-scenarios/Mobile-Default.png</hoverImageLarge>
+	<hoverImageSmall>/static-assets/images/homepage-scenarios/Mobile-Default.png</hoverImageSmall>
+	<ctas item-list="true">	<item>	<label>Learn More About Banking</label>
+	<link>/en/banking</link>
+	</item>	<item>	<label>Lean More About Our Advisors</label>
+	<link>/en/products</link>
+	</item></ctas>
+	<createdDate>2018-01-25T23:13:58.951Z</createdDate>
+	<createdDate_dt>2018-01-25T23:13:58.951Z</createdDate_dt>
+	<lastModifiedDate>2019-08-14T14:27:45.312Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-08-14T14:27:45.312Z</lastModifiedDate_dt>
+	<disabled>false</disabled>
+	<season>	<item>	<key>All</key>
+	<value>All</value>
+	</item></season>
+	<logo>/static-assets/images/homepage-scenarios/dazzle_logo.png</logo>
+	<newfield>new text</newfield>
+	<region/>
+</component>

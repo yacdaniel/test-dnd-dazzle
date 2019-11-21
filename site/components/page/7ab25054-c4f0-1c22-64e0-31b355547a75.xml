@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/user-forms/user-form</content-type>	<display-template>/templates/plugins/user-forms/component-user-form.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7ab2</objectGroupId>
+	<objectId>7ab25054-c4f0-1c22-64e0-31b355547a75</objectId>
+	<file-name>7ab25054-c4f0-1c22-64e0-31b355547a75.xml</file-name>
+	<internal-name>Test Form</internal-name>
+	<emailonSubmit>brian.buzzell@craftersoftware.com</emailonSubmit>
+	<submitButtonLabel>Submit</submitButtonLabel>
+	<result>Test</result>
+	<onSubmitAction>Display Message</onSubmitAction>
+	<createdDate>2019-06-24T01:08:16.117Z</createdDate>
+	<createdDate_dt>2019-06-24T01:08:16.117Z</createdDate_dt>
+	<lastModifiedDate>2019-06-24T01:08:16.117Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-24T01:08:16.117Z</lastModifiedDate_dt>
+</component>

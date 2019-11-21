@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>
+	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<no-template-required/>
+	<objectGroupId>70ac</objectGroupId>
+	<objectId>70ac5d63-6af7-7ffd-6198-29b49587f89a</objectId>
+	<file-name>70ac5d63-6af7-7ffd-6198-29b49587f89a.xml</file-name>
+	<internal-name>dddd</internal-name>
+	<content_html>&lt;p&gt;dddd&lt;/p&gt;</content_html>
+	<createdDate>2019-11-15T15:06:35.059Z</createdDate>
+	<createdDate_dt>2019-11-15T15:06:35.059Z</createdDate_dt>
+	<lastModifiedDate>2019-11-15T15:06:35.059Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-15T15:06:35.059Z</lastModifiedDate_dt>
+</component>

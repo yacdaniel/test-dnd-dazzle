@@ -1,0 +1,1 @@
+templateModel.mySum = 46 + 2

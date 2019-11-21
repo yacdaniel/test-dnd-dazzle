@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>77e0</objectGroupId>
+	<objectId>77e02646-a106-bcfd-7419-4a675b8bfb1a</objectId>
+	<file-name>77e02646-a106-bcfd-7419-4a675b8bfb1a.xml</file-name>
+	<internal-name>Enroll In Your Benefits</internal-name>
+	<content_html>&lt;h2 class="hero__brow" style="text-align: left;"&gt;Contact your Dazzle Finance Agent for more information on Enrollment..&lt;/h2&gt;
+&lt;h4 class="hero__brow" style="text-align: left;"&gt;Beat the Rush and Plan to enroll now..&amp;nbsp;&lt;/h4&gt;
+&lt;h3 class="hero__brow" style="text-align: left;"&gt;&lt;img src="/static-assets/images/page/Mobile.jpeg" width="264" height="176" style="font-family: muli-regular, sans-serif; font-size: 1.6rem;" /&gt;&lt;/h3&gt;
+&lt;h3 class="hero__brow" style="text-align: left;"&gt;Notification of Open Enrollment&lt;/h3&gt;
+&lt;h4 class="hero__brow" style="text-align: left; padding-left: 30px;"&gt;Your employer should alert you to open enrollment a few weeks ahead of time. It may be in the form of a company-wide email, and most companies will also send an enrollment package to your home. The packet should include the start and end dates of the enrollment period. If you don&amp;#39;t turn in your paperwork before the enrollment deadline, you may have to wait a whole year before you get the chance to participate in the plan. Some companies allow new employees to enroll at any time, but existing employees normally have to enroll during this time frame. Some employees, such as part-time workers or people under the age of 18, can&amp;#39;t participate in these plans&lt;/h4&gt;
+&lt;h3 class="hero__brow" style="text-align: left;"&gt;Investment Paperwork&lt;/h3&gt;
+&lt;h4 class="hero__brow" style="text-align: left; padding-left: 30px;"&gt;Like most things financial, 401k enrollment culminates in paperwork. The plan custodian will need at least your name, address, Social Security number, date of birth. The plan custodian has to keep this information on file for administrative and tax reporting purposes. You normally have a few days after you enroll to make last minute changes to the account. After that, your selections kick in and remain in place until the process begins again the following year.&lt;/h4&gt;</content_html>
+	<createdDate>2019-06-23T21:23:52.693Z</createdDate>
+	<createdDate_dt>2019-06-23T21:23:52.693Z</createdDate_dt>
+	<lastModifiedDate>2019-06-26T18:41:39.096Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-26T18:41:39.096Z</lastModifiedDate_dt>
+</component>

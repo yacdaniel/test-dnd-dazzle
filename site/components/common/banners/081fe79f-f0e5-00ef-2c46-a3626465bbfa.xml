@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>081f</objectGroupId>
+	<objectId>081fe79f-f0e5-00ef-2c46-a3626465bbfa</objectId>
+	<file-name>081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</file-name>
+	<internal-name>Banner A</internal-name>
+	<content_html>&lt;p&gt;&lt;img src="/static-assets/images/page/some-guy.jpg" /&gt;&lt;/p&gt;</content_html>
+	<createdDate>2018-07-09T13:09:52.361Z</createdDate>
+	<createdDate_dt>2018-07-09T13:09:52.361Z</createdDate_dt>
+	<lastModifiedDate>2019-06-21T18:10:56.649Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-21T18:10:56.649Z</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/section</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>95ec</objectGroupId>
+	<objectId>95ec713a-7d47-72f6-2d8a-f1860d7b3823</objectId>
+	<file-name>95ec713a-7d47-72f6-2d8a-f1860d7b3823.xml</file-name>
+	<sectionID>content</sectionID>
+	<sectionZone1 item-list="true">	<item>	<key>/site/components/page/8d718897-6bd4-120c-967c-ff769819b988.xml</key>
+	<value>Email Form</value>
+	<include>/site/components/page/8d718897-6bd4-120c-967c-ff769819b988.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sectionZone1>
+	<createdDate>2019-06-24T01:17:38.623Z</createdDate>
+	<createdDate_dt>2019-06-24T01:17:38.623Z</createdDate_dt>
+	<lastModifiedDate>2019-06-24T11:52:20.633Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-24T11:52:20.633Z</lastModifiedDate_dt>
+	<internal-name>section layout</internal-name>
+</component>

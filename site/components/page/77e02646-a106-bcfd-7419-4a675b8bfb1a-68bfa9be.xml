@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>eafcfc65</objectGroupId>
+	<objectId>eafcfc65-7ab8-40c2-85fc-dd88b10cfbf3</objectId>
+	<file-name>77e02646-a106-bcfd-7419-4a675b8bfb1a-68bfa9be.xml</file-name>
+	<internal-name>Pay Off Your Mortgage</internal-name>
+	<content_html>&lt;h2 class="core-title"&gt;During Open Enrollment, Be Open to Retirement Saving Opportunities&lt;/h2&gt;
+&lt;div about="/investors/highlights/open-enrollment-retirement-saving-opportunities" typeof="sioc:Item foaf:Document" role="article" class="node node--investor node--full node--investor--full"&gt;
+&lt;div class="node__content"&gt;
+&lt;div class="field"&gt;
+&lt;div class="field-items"&gt;
+&lt;div class="field-item even field field--name-body field--type-text-with-summary field--label-hidden" property="content:encoded"&gt;
+&lt;p&gt;Election time is here. We&amp;#39;re not talking about casting your vote for public office, but making your annual elections related to benefits your company might offer. &amp;#39;Tis the season for open enrollment.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Open Enrollment Street Sign" title="Open Enrollment Street Sign" class="media-element file-default" typeof="foaf:Image" src="https://www.finra.org/sites/default/files/Open-Enrollment-Sign_230x153.jpg" style="color: #39b54a; font-family: montserrat-regular, sans-serif; font-size: 2.6rem; letter-spacing: -0.07rem; background-color: #ffffff;" /&gt;&lt;/p&gt;
+&lt;p&gt;Open enrollment is an employee&amp;#39;s annual opportunity to choose a medical, dental or vision plan; change or start flexible spending accounts; enroll in, or add or drop dependents to, insurance coverage. It&amp;#39;s also a time to take stock of retirement savings plans. There are actions you can take this open enrollment season to put yourself on sound retirement savings footing, whether your employer offers access to retirement savings benefits at work or not.&lt;/p&gt;
+&lt;h3&gt;Take Control of Your Retirement Savings Plan&lt;/h3&gt;
+&lt;p&gt;Here are five actions you can take this open enrollment season to get or keep your retirement savings on track:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enroll now.&lt;/strong&gt;&amp;nbsp;If you haven&amp;#39;t enrolled in your company&amp;#39;s 401(k) or other retirement savings plan, open enrollment is the time to do so. While a growing number of companies now automatically enroll their employees, in many cases you have to take the initiative. Maybe you&amp;#39;ve resisted the move to save because your plan has many options to choose from, or simply because you&amp;#39;ve never saved before. Your human resources department or plan administrator are helpful places to start. Ask what your employer&amp;#39;s default investment choice is&amp;mdash;it&amp;#39;s often a life cycle or target-date fund, which has as its target the year that is closest to the year you anticipate retiring, say a "2050 Fund." As you move toward your retirement "target date," the fund gradually reduces risk by changing the investments within the fund. (That said, target-date funds are not risk free, even when the target date has been reached.) The main goal, though, is to simply start saving.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Take advantage of an employer match.&lt;/strong&gt;&amp;nbsp;If your company offers a match on contributions, take full advantage of it. You&amp;#39;ll want to try to contribute at least as much as you need to earn the full match, or else you will be&amp;nbsp;&lt;a href="https://www.finra.org/investors/alerts/why-leave-money-make-most-employers-401k-match"&gt;leaving free money on the table&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content_html>
+	<createdDate>2019-06-23T21:23:52.693Z</createdDate>
+	<createdDate_dt>2019-06-23T21:23:52.693Z</createdDate_dt>
+	<lastModifiedDate>2019-06-26T18:39:13.809Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-06-26T18:39:13.809Z</lastModifiedDate_dt>
+</component>

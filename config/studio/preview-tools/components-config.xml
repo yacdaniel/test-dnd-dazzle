@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+<category>
+<label>General</label>
+
+<component>
+<label>Site Header</label>
+<type>/plugins/theme-canvas/component-header</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Section Slider</label>
+<type>/plugins/theme-canvas/section-slider</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>QR Code</label>
+<type>/plugins/qr-code/qr-code</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>YouTube Video</label>
+<type>/plugins/youtube-video/youtube-video</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Rich Text</label>
+<type>/plugins/rich-text/rich-text</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>RSS Feed</label>
+<type>/plugins/rss-feed/rss-feed</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Remote Articles</label>
+<type>/component/remotearticles</type>
+<path>/site/components/page</path>
+</component>
+
+
+</category>
+
+<category>
+<label>Layouts</label>
+<component>
+<label>Section Layout</label>
+<type>/plugins/bootstrap-layouts/section</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Two Col Layout</label>
+<type>/plugins/bootstrap-layouts/2-col</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Three Col Layout</label>
+<type>/plugins/bootstrap-layouts/3-col</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Four Col Layout</label>
+<type>/plugins/bootstrap-layouts/4-col</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Five Col Layout</label>
+<type>/plugins/bootstrap-layouts/5-col</type>
+<path>/site/components/page</path>
+</component>
+</category>
+
+
+
+
+
+
+
+
+<category>
+<label>Targeting</label>
+<component>
+<label>Targeted Section</label>
+<type>/plugins/targeting/targeter</type>
+<path>/site/components/page</path>
+</component>
+<component>
+<label>Targeted Content</label>
+<type>/plugins/targeting/targeted-content</type>
+<path>/site/components/page</path>
+</component>
+</category>
+
+
+
+
+<category>
+<label>Social Media</label>
+<component>
+<label>Twitter Feed</label>
+<type>/plugins/twitterfeed/twitterfeed</type>
+<path>/site/components/page</path>
+</component>
+</category>
+
+   <category>
+      <label>Forms and Workflow</label>
+      <component>
+                <label>User Form</label>
+                <type>/plugins/user-forms/user-form</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+
+ <browse>
+         <label>Common</label>
+         <path>/site/components/common</path>
+       </browse>
+
+</config>

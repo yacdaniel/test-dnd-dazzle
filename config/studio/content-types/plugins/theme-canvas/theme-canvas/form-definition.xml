@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+   <title>Theme Canvas</title>
+   <description/>
+   <objectType>component</objectType>
+   <content-type>/plugins/theme-canvas/theme-canvas</content-type>
+   <imageThumbnail>undefined</imageThumbnail>
+   <properties>
+      <property>
+         <name>display-template</name>
+         <label>Display Template</label>
+         <value/>
+         <type>template</type>
+      </property>
+      <property>
+         <name>merge-strategy</name>
+         <label>Merge Strategy</label>
+         <value>inherit-levels</value>
+         <type>string</type>
+      </property>
+      <property>
+         <name>no-template-required</name>
+         <label>No Template Required</label>
+         <type>boolean</type>
+         <value/>
+      </property>
+   </properties>
+   <sections>
+      <section>
+         <title>Theme Canvas Properties</title>
+         <description/>
+         <defaultOpen>true</defaultOpen>
+         <fields>
+            <field>
+               <type>auto-filename</type>
+               <id>file-name</id>
+               <iceId/>
+               <title>Component ID</title>
+               <description/>
+               <defaultValue/>
+               <help/>
+               <properties/>
+               <constraints/>
+            </field>
+            <field>
+               <type>input</type>
+               <id>internal-name</id>
+               <iceId/>
+               <title>Internal Name</title>
+               <description/>
+               <defaultValue>Canvas Theme</defaultValue>
+               <help/>
+               <properties>
+                  <property>
+                     <name>size</name>
+                     <value>50</value>
+                     <type>int</type>
+                  </property>
+                  <property>
+                     <name>maxlength</name>
+                     <value>50</value>
+                     <type>int</type>
+                  </property>
+                  <property>
+                     <name>readonly</name>
+                     <value>true</value>
+                     <type>boolean</type>
+                  </property>
+                  <property>
+                     <name>tokenize</name>
+                     <value>false</value>
+                     <type>boolean</type>
+                  </property>
+               </properties>
+               <constraints>
+                  <constraint>
+                     <name>required</name>
+                     <value>true</value>
+                     <type>boolean</type>
+                  </constraint>
+               </constraints>
+            </field>
+         </fields>
+      </section>
+   </sections>
+   <datasources/>
+</form>

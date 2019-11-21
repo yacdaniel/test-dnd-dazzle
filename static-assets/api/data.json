@@ -1,0 +1,58 @@
+[
+    {
+        "title": "test",
+        "id": 1,
+        "startDate": "08/12/2018 00:00",
+        "endDate": "08-12-2018 01:00",
+        "allDay":true,
+        "dirty":true,
+        "start": 1534053600000,
+        "end": 1534057200000,
+        "departmentId": "strategy",
+        "contact": "roy@gmail.com",
+        "contentId": "test",
+        "description": "some text is coming here"
+    },
+    {
+        "title": "test2",
+        "id": 2,
+        "startDate": "08/05//2018 00:00",
+        "endDate": "08/11/2018 01:00",
+        "allDay":false,
+        "dirty":true,
+        "start": 1533448800000,
+        "end": 1533452400000,
+        "departmentId": "digital",
+        "contact": "roy@gmail.com",
+        "contentId": "test2",
+        "description": "some text is coming here"
+    },
+    {
+        "title": "test3",
+        "id": 3,
+        "allDay":false,
+        "dirty":true,
+        "startDate":"09/02/2018 00:00",
+        "endDate":"09/02/2018 01:00",
+        "start": 1535868000000,
+        "end": 1535871600000,
+        "departmentId": "media",
+        "contact": "roy@gmail.com",
+        "contentId": "test2",
+        "description": "some text is coming here"
+    },
+    {
+        "title":"New Event",
+        "id": 4,
+        "startDate":"08/12/2018 00:00",
+        "endDate":"08/12/2018 01:00",
+        "start": 1533448800000,
+        "end": 1533452400000,
+        "allDay":false,
+        "dirty":true,
+        "contact":"ad@gmail.com",
+        "contentId":"/site/components/titles/1af8bb45-c511-87ac-b362-5f356b5af8a5.xml",
+        "departmentId":"media",
+        "description":"ASD"
+    }
+]

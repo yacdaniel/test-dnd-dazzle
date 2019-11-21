@@ -1,0 +1,81 @@
+<div class="custom-calendar">
+    <table>
+        <thead>
+        <tr>
+            <th>
+                <dropdown class="cell-inner dropdown">
+                    <dropdown-toggle class="dropdown-toggle">
+                        Departments <b class="caret"></b>
+                    </dropdown-toggle>
+                    <ul class="dropdown-menu">
+                        <li ng-repeat="department in departments">
+                            <a>
+                                <div class="checkbox">
+                                    <label ng-click="$event.stopPropagation()">
+                                        <input type="checkbox"
+                                                ng-model="department.active"/>
+                                        {{department.name}}
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </dropdown>
+            </th>
+            <th ng-repeat="week in weeks"
+                ng-class="{ highlight: week.active }"
+                data-week-start="{{week.start}}">
+                <div class="in">{{printWeekHeader(week)}}</div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr ng-repeat="department in departments | filter:{ active:true }"
+            ng-style="getRowStyle(department)">
+            <th data-department-id="{{department.id}}"><div class="in">{{department.name}}</div></th>
+            <td ng-repeat="week in weeks" ng-click="dayClicked(week.start, false, $event)" ng-class="{ highlight: week.active }"></td>
+        </tr>
+
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="{{weeks.length + 1}}">
+                <div class="in clearfix">
+                    <div class="form-inline pull-right">
+                        <div class="form-group">
+                            <label class="sr-only" for="fromDate">From</label>
+                            <input id="fromDate" type="date"
+                                    class="form-control input-sm"
+                                    ng-model="ui.fromDate"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="toDate">To</label>
+                            <input id="toDate" type="date"
+                                    class="form-control input-sm"
+                                    ng-model="ui.toDate"/>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+    <div class="event-container">
+        <div ng-repeat="department in departments | filter:{ active:true }">
+            <a href="javascript:"
+                data-event-id="{{event.id}}"
+                class="event {{department.id}}-department"
+                ng-click="eventClick(event, $event)"
+                ng-style="getEventStyle(event, $index, $parent.$index)"
+                ng-repeat="event in events | filter:{ departmentId:department.id } | contained:weeks ">
+                <div class="img" ng-if="multiMode">
+                    <img ng-src="/api/1/services/rendition.json?id={{event.content.id}}&resolution=300x150"/>
+                </div>
+                <div class="in">
+                    <span class="title" ng-class="{bold:multiMode}">{{event.title}}</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
