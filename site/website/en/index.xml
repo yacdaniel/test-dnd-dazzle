@@ -19,8 +19,5 @@
 	<disabled>false</disabled>
 	<headline>Accelerated portfolios the</headline>
 	<subHeadline>We are the Financial Experts for Long term Portfolio management.   Find out how.</subHeadline>
-	<col1 item-list="true">	<item datasource="components2">	<value>section layout</value>
-	<key>/site/components/page/1d279669-3191-96cf-c79b-1accef535c1f.xml</key>
-	<include>/site/components/page/1d279669-3191-96cf-c79b-1accef535c1f.xml</include>
-	</item></col1>
+	<col1 item-list="true"/>
 </page>
