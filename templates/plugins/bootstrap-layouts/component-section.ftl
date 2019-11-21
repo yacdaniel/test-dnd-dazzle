@@ -2,7 +2,7 @@
 
 <section id="${contentModel.sectionID}" <@studio.componentAttr path=contentModel.storeUrl ice=true /> >
   
-<div class="content-wrap" <@studio.componentContainerAttr target="sectionZone1" objectId=contentModel.objectId />>
+<div class="content-wrap" <@studio.componentContainerAttr target="sectionZone1" component=contentModel/>>
   <#if contentModel.sectionZone1?? &&  contentModel.sectionZone1.item?? >
       <#list contentModel.sectionZone1.item as module>
               <@renderComponent component=module />
