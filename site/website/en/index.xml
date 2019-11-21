@@ -22,8 +22,5 @@
 	<col1 item-list="true">	<item>	<value>dddd</value>
 	<key>/site/components/page/70ac5d63-6af7-7ffd-6198-29b49587f89a.xml</key>
 	<include>/site/components/page/70ac5d63-6af7-7ffd-6198-29b49587f89a.xml</include>
-	</item>	<item>	<value>Two Column Layout</value>
-	<key>/site/components/page/eddd5bdf-2560-6fda-98d7-9b4089300d13.xml</key>
-	<include>/site/components/page/eddd5bdf-2560-6fda-98d7-9b4089300d13.xml</include>
 	</item></col1>
 </page>
