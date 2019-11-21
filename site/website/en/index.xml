@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">Error de lectura XML: mal formado
-Ubicación: http://yac-linux-qa.craftercms.org:8080/studio/preview/#/?page=/en&amp;site=site_dazzle
-Número de línea 47, columna 19:<sourcetext>	&lt;/item&gt;	&lt;item &gt;	&lt;0&gt;6&lt;/0&gt;
--------------------------^</sourcetext></parsererror>
+<page>
+	<content-type>/page/entry</content-type>
+	<placeInNav>true</placeInNav>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
+	<no-template-required/>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home (EN_Us)</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name>en</folder-name>
+	<createdDate>1/31/2017 16:18:14</createdDate>
+	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:41:42.772Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:41:42.772Z</lastModifiedDate_dt>
+	<disabled>false</disabled>
+	<headline>Accelerated portfolios the</headline>
+	<subHeadline>We are the Financial Experts for Long term Portfolio management.   Find out how.</subHeadline>
+	<col1 item-list="true">	<item datasource="components2">	<value>section layout</value>
+	<key>/site/components/page/8ae5e0a4-66e6-cd5b-a3e0-47ea514ee906.xml</key>
+	<include>/site/components/page/8ae5e0a4-66e6-cd5b-a3e0-47ea514ee906.xml</include>
+	</item></col1>
+</page>
