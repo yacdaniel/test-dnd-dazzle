@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>
+	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<no-template-required/>
+	<objectGroupId>b2f7</objectGroupId>
+	<objectId>b2f78ec6-e2d0-8032-2d62-7e1d0c04be52</objectId>
+	<internal-name>text in layout</internal-name>
+	<file-name>b2f78ec6-e2d0-8032-2d62-7e1d0c04be52.xml</file-name>
+	<content_html>&lt;h1&gt;text in layout&lt;/h1&gt;</content_html>
+	<createdDate>2019-11-21T05:33:56.240Z</createdDate>
+	<createdDate_dt>2019-11-21T05:33:56.240Z</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:33:56.240Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:33:56.240Z</lastModifiedDate_dt>
+</component>
