@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/section</content-type>
+	<display-template>/templates/plugins/bootstrap-layouts/component-section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>71cc</objectGroupId>
+	<objectId>71ccbe13-8bbb-ad63-ed18-4eeed41750e8</objectId>
+	<internal-name>section layout</internal-name>
+	<sectionID>content</sectionID>
+	<file-name>71ccbe13-8bbb-ad63-ed18-4eeed41750e8.xml</file-name>
+	<sectionZone1 item-list="true">	<item datasource="components">	<key>/site/components/page/c06934ec-3d05-ab9f-40f0-4d4be2fa7452.xml</key>
+	<value>in layout</value>
+	<include>/site/components/page/c06934ec-3d05-ab9f-40f0-4d4be2fa7452.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sectionZone1>
+	<createdDate>2019-11-21T05:49:54.294Z</createdDate>
+	<createdDate_dt>2019-11-21T05:49:54.294Z</createdDate_dt>
+	<lastModifiedDate>2019-11-21T05:49:54.294Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-11-21T05:49:54.294Z</lastModifiedDate_dt>
+</component>
